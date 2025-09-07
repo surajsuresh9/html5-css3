@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url('./images/hero.jpg');
+    background-repeat: no-repeat;
+    filter: brightness(90%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 20px;
+    color: white;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 55%;
+    padding-left: 25px;
+    color: white
+}
+
+article h1 {
+    font-weight: bold;
+    line-height: 0.9;
+    font-size: 52px;
+}
+
+article p {
+    font-size: 23px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+}
+
+button {
+    padding: 16px 32px;
+    width: 220px;
+    background-color: #e67e22;
+    font-family: inherit;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.extra {
+    margin-top: 50px;
+}
+
+.extra h1 {
+    color: hsl(0, 0%, 33%);
+    padding: 20px 40px;
+    font-size: 38px;
+}
+
+.extra p {
+    color: hsl(0, 0%, 53%);
+    padding: 20px 40px;
+    font-size: 24px;
+    line-height: 1.6;
+
+}
