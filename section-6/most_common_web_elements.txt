@@ -1,0 +1,42 @@
+Elements
+- Text
+- Buttons
+- Images
+- Input Elements
+- Tags
+
+Components
+- Breadcrumbs
+- Pagination
+- Alerts and status bars
+- Statistics
+- Gallery
+- Feature box
+- Preview and profile cards
+- Accordion
+- Carousel 
+- Customer testimonials
+- Customer logos
+- Featured-in logos
+- Steps
+- Forms
+- Tables
+- Pricing tables
+- Modal windows
+
+Section Components
+- Navigation
+- Hero Section
+- Footer
+- Call-to-action section
+- Feature row
+
+Layout patterns
+- Row of boxes or cards
+- Grid of boxes or cards
+- Z pattern 
+- F pattern 
+- Single column 
+- Sidebar 
+- Multi column/ magazine 
+- Asymmetry/ Experimental

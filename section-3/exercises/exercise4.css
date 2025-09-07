@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 99vw;
+    height: 80px;
+    background-color: hsl(0, 0%, 39%);
+}
+
+li {
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 21px 0;
+    border: 1px solid black;
+}
+
+li:first-child {
+    background-color: hsl(0, 100%, 67%);
+}
+
+li:hover {
+    background-color: hsl(0, 0%, 29%);
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+#heading-1 {
+    font-weight: 100;
+}
+
+#heading-2 {
+    font-weight: 200;
+}
+
+#heading-3 {
+    font-weight: 300;
+}
+
+#heading-4 {
+    font-weight: 400;
+}
+
+#heading-5 {
+    font-weight: 500;
+}
+
+#heading-6 {
+    font-weight: 600;
+}
+
+#heading-7 {
+    font-weight: 700;
+}
+
+#heading-8 {
+    font-weight: 800;
+}
+
+#heading-9 {
+    font-weight: 900;
+}
+
+#heading-10 {
+    font-weight: bold;
+}
+
+#heading-11 {
+    font-weight: bolder;
+}
+
+#heading-12 {
+    font-weight: lighter;
+}

@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    padding: 10px;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #dedede;
+    float: left;
+}
+
+.box2 {
+    background-color: #aaa;
+    float: left;
+
+}

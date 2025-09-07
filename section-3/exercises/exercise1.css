@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    height: 90px;
+    width: 30px;
+    border: 1px solid black;
+}
+
+
+.container2 {
+    width: 98%;
+    margin: 10px auto;
+}
+.container {
+    width: 98%;
+    margin: 10px auto;
+}
+
+.box1 {
+    width: 50%;
+    float: left;
+    background-color: #eee;
+}
+
+.box2 {
+    width: 50%;
+    float: right;
+    background-color: #cecece;
+}
+
+.box3 {
+    width: 33.33%;
+    background-color: #bfbfbf;
+    float: right;
+}
+
+.box4 {
+    width: 33.33%;
+    background-color: #aeaeae;
+    float: right;
+}
+
+.box5 {
+    width: 33.33%;
+    background-color: #ababab;
+    float: right;
+}

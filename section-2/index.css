@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    font-family: sans-serif;
+    border: 5px solid black;
+    line-height: 1.4;
+    margin: 50px auto;
+}
+
+h2 {
+    margin: 0;
+    background-color: #eee;
+    padding: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+li {
+    margin-left: 20px;
+    list-style: square;
+}
+
+li:last-child {
+    margin-bottom: 20px;
+}
+
+a {
+    color: black;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+a:hover a:active {
+    text-decoration: none;
+}
+
+button {
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 15px;
+}
+
+button:hover {
+    border-top: 5px solid black;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.type {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+article {
+    position: relative;
+}
+
+article::before {
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    padding: 5px;
+    content: "SALE";
+    position: absolute;
+    left: -30px;
+    top: -25px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.colors {
+    margin: 20px 0;
+}
+
+.color {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.colors div:last-child {
+    margin-right: 0px;
+}
+
+.color-1 {
+    background-color: black;
+}
+
+.color-2 {
+    background-color: blue;
+}
+
+.color-3 {
+    background-color: red;
+}
+
+.color-4 {
+    background-color: yellow;
+}
+
+.color-5 {
+    background-color: green;
+}
+
+.color-6 {
+    background-color: brown;
+
+}
+
+/* floats */
+.container {
+    width: 80vw;
+}
+
+.float {
+    width: 33.33%;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+}
+
+article h2 {
+    text-align: center;
+}
+.price{
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+}
